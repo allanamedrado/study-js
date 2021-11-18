@@ -48,3 +48,25 @@ let message = 'Hello'
 function changeMessage(message) {
     message = 'Oi'
 }
+
+changeMessage(message)
+
+console.log(message) //Hello
+
+function incrementAge(p) {
+    p.age++
+}
+
+incrementAge(person)
+
+console.log(person.age) //25 
+
+//conseguimos alterar objetos mas variaveis não é possivel alterar
+
+
+//standar built-in objects
+let now = new Date();
+console.log(now.toDateString())
+
+console.log(Math.abs(-42)) //42
+
