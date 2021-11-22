@@ -53,3 +53,14 @@ const find = numbers.find((item) => {
 })
 
 console.log(find) //undefined
+
+let sayings = new Map()
+sayings.set('cat', 'meow')
+sayings.set('dog', 'woof')
+sayings.set('elephant', 'toot')
+
+console.log(sayings)
+
+for(let [key, value] of sayings) {
+    console.log(key + ' goes ' + value) //cat goes meow etc
+}
